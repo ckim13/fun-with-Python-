@@ -1,0 +1,38 @@
+print ("1. Eggs")
+print ("2. Pancakes")
+print ("3. Waffles")
+print ("4. Oatmeal")
+MainChoice = int(input("Choose a breakfast item: "))
+if (MainChoice == 2):
+	Meal = "Pancakes"
+elif (MainChoice == 3):
+	Meal = "Waffles"
+if (MainChoice == 1 ):
+	print ("1. Wheat Toast")
+	print ("2. sour dough bread")
+	print ("3. Rye toast")
+	print ("4. Pancakes")
+	Bread = int( input("what kind of bread would you like?: "))
+	if (Bread == 1):
+		print ("eggs and wheat toast it is then!")
+	elif (Bread == 2):
+		print ( "eggs and sour dough on the way")
+	if (Bread == 3):
+		print ("eggs and rye bread, we can do that")
+	elif print( "you cohse eggs with Pancakes")
+	else print( "we have eggs but we odn't have that kind of bread, sorry!")
+	elif (MainChoice ==2 ) or (MainChoice == 3):
+	print ("1. Syrup")
+	print ("2. strawberries")
+	print ("3. whipped cream")
+	Topping = int(input("Please choose a topping: "))
+	if (Topping == 1):
+		print ("Alright " + Meal + "with Syrup")
+	elif (Topping == 2):
+		print ("Ok " + Meal + "with strawberries")
+	elif (Topping == 3):
+		print ("Alright " Meal + "with whipped cream")
+	elif (MainChoice == 4):
+		print ("Oatmeal on the way")
+	else:
+		print ("I'm sorry that's all we have")
